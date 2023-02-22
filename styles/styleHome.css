@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-style: none;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+body {
+    background-color: rgb(162, 229, 255);
+}
+
+.container-header-hub ul li {
+    display: inline-block;
+    margin: 5px;
+    
+}
+
+.container-header {
+    text-align: center;
+    font-size: 1em;
+}
+
+.container-header-hub-register ul li {
+    display: inline-block;
+}
+
+.tier {
+    padding: 8px;
+    border: 2px solid rgb(0, 255, 64);
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+    font-weight: 700;
+    background-color: aliceblue;
+}
+
+.container-header-hub-register ul li{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(21, 255, 0); 
+    font-size: 1.2em;
+    font-weight: 500;
+    background-color: aliceblue;
+}
+
+.container-header-search input {
+    width: 800px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 1.2em;
+    margin-top: 8px;
+}
+
+.container-conteds-line ul li {
+    border: 1px solid greenyellow;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+    display: inline-block;
+    margin: 10px;
+}
+
+.container-conteds-line {
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container-conteds-line-produt {
+    border: 2px solid greenyellow;
+    height: 150px;
+    width: 200px;
+    background-color: aliceblue;
+}
+
+.container-conteds-line-text {
+    background-color: aliceblue;
+}
+
+.network ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.container-network{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+#C:hover {
+    background-color: orange;
+    border: 2px solid black;
+}
+
+#B:hover {
+    background-color: orange;
+    border: 2px solid black;
+}
+
+#A:hover {
+    background-color: orange;
+    border: 2px solid black;
+}
+
+#S:hover {
+    background-color: orange;
+    border: 2px solid black;
+}
+
+#Person:hover {
+    background-color: orange;
+    border: 2px solid black;
+}
+
+#login:hover {
+    background-color: orange;
+    border: 2px solid black;
+}
+
+#register:hover {
+    background-color: orange;
+    border: 2px solid black;
+}
+
+.container-tittle {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 2em;
+}
