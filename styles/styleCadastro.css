@@ -21,21 +21,32 @@ body {
     background-color: aliceblue;
 }
 
-.container-geral-login {
-    border: 1px solid black;
-    display: inline-block;
-    margin: 15px auto;
-}
-
-.container-geral-register {
-    border: 1px solid black;
-    display: inline-block;
-    margin: 50px;
-}
-
 .container-header-hub  {
     text-align: center;
     align-items: center;
+}
+
+.container-geral-login {
+    border: 2px solid greenyellow;
+    box-shadow: 2px 2px 2px 2px black;
+    display: inline-flex;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.container-geral-register {
+    border: 2px solid greenyellow;
+    box-shadow: 2px 2px 2px 2px black;
+    display: inline-flex;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.container-geral {
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 .post {
@@ -45,20 +56,61 @@ body {
 
 .container-geral-login-inputs {
     padding: 15px;
-    background-color: aliceblue;
+    height: 250px;
+    width: 250px;
 }
 
 .container-geral-register-inputs{
     padding: 15px;
-    background-color: aliceblue;
+    height: 250px;
+    width: 250px;
 }
 
 .container-geral-login-inputs input{
-   padding: 1px;
-   margin: 5px;
+   padding: 2px;
+   margin: 8px;
+   border: 0px;
+   border-bottom: 1px solid black;
 }
 
 .container-geral-register-inputs input{
-    padding: 1px;
+    padding: 2px;
+    margin: 8px;
+    border: 0px;
+    border-bottom: 1px solid black;
+}
+
+.container-geral-login-inputs li button{
     margin: 5px;
 }
+
+.container-network {
+    text-align: center;
+}
+
+.container-button-login button {
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: chartreuse;
+}
+
+.container-button-register button{
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: chartreuse;
+} 
+.logo{
+    display: inline-flex;
+    border: 1px solid black;
+    float: right;
+}
+
+.logo img {
+    height: 32px;
+    width: 32px;
+}
+
