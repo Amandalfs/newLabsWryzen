@@ -136,3 +136,12 @@ body {
 .desc p {
     text-justify:inter-cluster;
 }
+
+.paytype ul li img{
+    height: 60px;
+    width: 120px;
+}
+
+.paytype ul li{
+    display: inline-block;
+}
