@@ -1,12 +1,5 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-style: none;
-    text-decoration: none;
-    list-style: none;
-    color: black;
-}
-
+@import url('reset.css');
+@import url('global.css');
 body {
     background-color: rgb(162, 229, 255);
 }
@@ -24,6 +17,7 @@ body {
 
 .container-header-hub-register ul li {
     display: inline-block;
+    border-radius: 0.5rem;
 }
 
 .tier {
@@ -71,60 +65,74 @@ body {
     height: 200px;
     width: 200px;
     background-color: aliceblue;
+    padding: 10px;
 }
 
 .container-conteds-line-text {
     background-color: aliceblue;
 }
 
-.network ul li{
+.network ul li {
     display: inline-block;
     margin-left: 10px;
 }
 
 .container-network{
     text-align: center;
-    margin-top: 5px;
     font-size: 1.2em;
+    background-color: rgb(37, 37, 37);
+    border-top: 1px solid white;
+    
 }
 
-#C:hover {
-    background-color: orange;
-    border: 2px solid black;
+.container-network p {
+    color: rgb(219, 110, 9);
 }
 
-#B:hover {
-    background-color: orange;
-    border: 2px solid black;
+.container-network a {
+    color: rgb(219, 110, 9);
 }
 
-#A:hover {
+.tier:hover {
     background-color: orange;
     border: 2px solid black;
+    transform: scale(1.1);
+    transition: .3s;
 }
 
-#S:hover {
-    background-color: orange;
-    border: 2px solid black;
-}
 
-#Person:hover {
-    background-color: orange;
-    border: 2px solid black;
-}
-
-#login:hover {
-    background-color: orange;
-    border: 2px solid black;
-}
-
-#register:hover {
-    background-color: orange;
-    border: 2px solid black;
-}
 
 .container-tittle {
     margin-top: 15px;
     text-align: center;
     font-size: 2em;
+}
+
+.paytype {
+    margin-top: 1.4rem;
+    height: 100%;
+    width: 100rem;
+    background-color: rgb(44, 44, 44);
+}
+
+.paytype h2 {
+    color:  rgb(219, 110, 9);
+}
+
+.btnCarrinho {
+    padding: 7px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: greenyellow;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.btnCarrinho:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.desc p {
+    text-justify:inter-cluster;
 }
