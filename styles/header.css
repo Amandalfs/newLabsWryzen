@@ -1,0 +1,53 @@
+@import url('reset.css');
+@import url('global.css');
+
+.container-header-hub ul li {
+    display: inline-block;
+    margin: 5px;
+    
+}
+
+.container-header {
+    text-align: center;
+    font-size: 1em;
+}
+
+.container-header-hub-register ul li {
+    display: inline-block;
+    border-radius: 0.5rem;
+}
+
+.tier {
+    padding: 8px;
+    border: 2px solid rgb(0, 255, 64);
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+    font-weight: 700;
+    background-color: aliceblue;
+}
+
+.container-header-hub-register ul li{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(21, 255, 0); 
+    font-size: 1.2em;
+    font-weight: 500;
+    background-color: aliceblue;
+}
+
+.container-header-search input {
+    width: 800px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 1.2em;
+    margin-top: 8px;
+}
+
+
+.tier:hover {
+    background-color: orange;
+    border: 2px solid black;
+    transform: scale(1.1);
+    transition: .3s;
+}

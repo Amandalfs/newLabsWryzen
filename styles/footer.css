@@ -1,0 +1,44 @@
+@import url('reset.css');
+@import url('global.css');
+
+.paytype ul li img{
+    height: 40px;
+    width: 120px;
+}
+
+.paytype ul li{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.paytype {
+    margin-top: 1.4rem;
+    height: 100%;
+    width: 100rem;
+    background-color: rgb(44, 44, 44);
+}
+
+.paytype h2 {
+    color:  rgb(219, 110, 9);
+}
+
+.container-network p {
+    color: rgb(219, 110, 9);
+}
+
+.container-network a {
+    color: rgb(219, 110, 9);
+}
+
+.network ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.container-network{
+    text-align: center;
+    font-size: 1.2em;
+    background-color: rgb(37, 37, 37);
+    border-top: 1px solid white;
+    
+}

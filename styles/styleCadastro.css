@@ -1,7 +1,5 @@
 @import url('reset.css');
-body {
-    background-color: rgb(162, 229, 255);
-}
+@import url('global.css');
 
 .container-header-hub-title {
     border: 2px solid rgb(21, 255, 0);
